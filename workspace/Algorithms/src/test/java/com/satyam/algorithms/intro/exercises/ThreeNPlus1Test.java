@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 class ThreeNPlus1Test {
 
 	@Test
-	void test() {
+	void testGetCycleLength() {
 		Map<Integer,Integer> map = new HashMap<>();
 		map.put(1,1);
 		map.put(2,2);
@@ -23,14 +23,18 @@ class ThreeNPlus1Test {
 		map.put(9,20);
 		map.put(10,7);
 		
-		ThreeNPlus1 collatz = new ThreeNPlus1();
 		for(int n : map.keySet()) {
-			int cycleLength = collatz.getCycleLength(n);
+			int cycleLength = ThreeNPlus1.getCycleLength(n);
 			assertEquals(map.get(n), cycleLength);
 		}
-		
-		
-		fail("Not yet implemented");
+	}
+	
+	@Test
+	void testMaxCycleLength() {
+		assertEquals(20, ThreeNPlus1.getMaxCycleLengthInRange(1,10));
+		assertEquals(125, ThreeNPlus1.getMaxCycleLengthInRange(100,200));
+		assertEquals(89, ThreeNPlus1.getMaxCycleLengthInRange(201,210));
+		assertEquals(174, ThreeNPlus1.getMaxCycleLengthInRange(900,1000));
 	}
 
 }

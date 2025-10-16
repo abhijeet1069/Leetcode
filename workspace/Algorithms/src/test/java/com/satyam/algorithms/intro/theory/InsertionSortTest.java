@@ -1,6 +1,6 @@
-package com.satyam.algorithms.intro;
+package com.satyam.algorithms.intro.theory;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import java.util.Arrays;
 

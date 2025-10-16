@@ -1,14 +1,8 @@
-package com.satyam.algorithms.intro;
+package com.satyam.algorithms.intro.theory;
 
 import java.util.Arrays;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-
 public class InsertionSort {
-	
-	private static final Logger logger = LoggerFactory.getLogger(InsertionSort.class);
 	
 	public int[] sort(int[] arr) {
 		int[] res = arr.clone();
@@ -21,9 +15,7 @@ public class InsertionSort {
 				j--;
 			}
 		}
-		logger.atDebug().log("Unsorted array = {} Sorted array = {}",
-				Arrays.toString(arr),Arrays.toString(res));
+		System.out.println("Unsorted array = "+Arrays.toString(arr)+" Sorted array = "+Arrays.toString(res));
 		return res;
 	}
-	
 }
