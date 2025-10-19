@@ -4,7 +4,10 @@ import java.util.Stack;
 
 public class FinalPrices {
 	
+	
 	public int[] finalPrices(int[] prices) {
+		
+		//monotonic stack
 		Stack<Integer> stack = new Stack<>();
 		int[] res = new int[prices.length]; 
 		for(int i = 0; i < prices.length; i++) {
