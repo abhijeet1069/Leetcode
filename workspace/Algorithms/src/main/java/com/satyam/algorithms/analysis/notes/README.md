@@ -3,7 +3,9 @@
 Algorithms are the most important and durable part of computer science because
 they can be studied in a language- and machine-independent way.
 
-## n! >  2^n >  n^3 >  n^2  > n log n >  n  > log n >  1
+## Main take away
+
+n! >  2^n >  n^3 >  n^2  > n log n >  n  > log n >  1
 
 ## RAM model of Computation
 
