@@ -3,6 +3,8 @@
 Algorithms are the most important and durable part of computer science because
 they can be studied in a language- and machine-independent way.
 
+## n! >  2^n >  n^3 >  n^2  > n log n >  n  > log n >  1
+
 ## RAM model of Computation
 
 Machine-independent algorithm design depends upon a hypothetical computer
@@ -56,4 +58,7 @@ take to run on a fast computer, where each operation costs one nanosecond
 - All such algorithms take roughly the same time for n = 10.
 - Any algorithm with n! running time becomes useless for n ≥ 20.
 
-![Running times](./running_time.png))
+![Running times](./running_time.png)
+
+
+
