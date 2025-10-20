@@ -56,4 +56,4 @@ take to run on a fast computer, where each operation costs one nanosecond
 - All such algorithms take roughly the same time for n = 10.
 - Any algorithm with n! running time becomes useless for n ≥ 20.
 
-![Running times](../../../resources/img/running_time.png))
+![Running times](./running_time.png))
