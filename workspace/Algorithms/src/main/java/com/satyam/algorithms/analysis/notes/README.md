@@ -3,10 +3,6 @@
 Algorithms are the most important and durable part of computer science because
 they can be studied in a language- and machine-independent way.
 
-## Main take away
-
-n! >  2^n >  n^3 >  n^2  > n log n >  n  > log n >  1
-
 ## RAM model of Computation
 
 Machine-independent algorithm design depends upon a hypothetical computer
@@ -61,6 +57,35 @@ take to run on a fast computer, where each operation costs one nanosecond
 - Any algorithm with n! running time becomes useless for n ≥ 20.
 
 ![Running times](./running_time.png)
+
+## Main take away
+
+n! >  2^n >  n^3 >  n^2  > n log n >  n  > log n >  1
+
+## Working with Big O
+
+### Adding Functions
+
+f(n)+g(n) -> O(max(f(n),g(n)))
+
+For ex : n^3 + n^2 + n + 1 = O(n^3) 
+
+### Multiplying Functions
+
+O(c · f(n)) → O(f(n))
+
+O(f(n)) · O(g(n)) → O(f(n) · g(n))
+
+### Big O is Transitive
+
+If f(n) = O(g(n)) and g(n) = O(h(n)), then f(n) = O(h(n))
+
+## Summations
+
+- Σ (i=1 to n) i^p = Θ(n^(p+1))
+- Harmonic Series : Σ (i=1 to n) 1/i = Θ(log n)
+- Geometric Progression : Σ (i=0 to n) a^i = (a^(n+1)-1)/(a-1) or Θ(a^(n+1))
+
 
 
 
