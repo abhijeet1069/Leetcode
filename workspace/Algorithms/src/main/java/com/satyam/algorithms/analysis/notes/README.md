@@ -60,7 +60,7 @@ take to run on a fast computer, where each operation costs one nanosecond
 
 ## Main take away
 
-n! >  2^n >  n^3 >  n^2  > n log n >  n  > log n >  1
+n! > c^n > n^3 > n^2 > n^(1+ e) > n*log n > n > √n > log^2(n) > log n > log n/ log log n > log log n> α(n) > 1
 
 ## Working with Big O
 
@@ -85,6 +85,10 @@ If f(n) = O(g(n)) and g(n) = O(h(n)), then f(n) = O(h(n))
 - Σ (i=1 to n) i^p = Θ(n^(p+1))
 - Harmonic Series : Σ (i=1 to n) 1/i = Θ(log n)
 - Geometric Progression : Σ (i=0 to n) a^i = (a^(n+1)-1)/(a-1) or Θ(a^(n+1))
+
+## Dominance relation
+
+We say that f(n) dominates g(n) if lim n→∞ g(n)/f(n) = 0.
 
 
 

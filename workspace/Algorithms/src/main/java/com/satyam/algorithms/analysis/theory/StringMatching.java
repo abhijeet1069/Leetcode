@@ -11,7 +11,7 @@ public class StringMatching {
 		
 		for(int i = 0; i <= (wholeLen-partLen); i++) {
 			int j = 0;
-			while((j < partLen) && whole.charAt(i+j) == part.charAt(j)) //comparision is being done at each index
+			while((j < partLen) && whole.charAt(i+j) == part.charAt(j)) //Comparison is being done at each index
 				j++;
 			if(j == partLen)
 				return i;
