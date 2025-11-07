@@ -1,4 +1,4 @@
-package com.satyam.algorithms.analysis.theory.recursion;
+package com.satyam.algorithms.analysis.recursion;
 
 /**
  * The recursion call happens before other computations in the function.

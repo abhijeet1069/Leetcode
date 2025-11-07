@@ -1,4 +1,4 @@
-package com.satyam.algorithms.analysis.theory.recursion;
+package com.satyam.algorithms.analysis.recursion;
 
 /**
  * In tail recursion, the recursive call is the last operation in the function.
