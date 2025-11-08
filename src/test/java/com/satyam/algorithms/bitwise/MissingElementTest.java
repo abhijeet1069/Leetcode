@@ -1,4 +1,4 @@
-package com.satyam.algorithms.analysis.exercises;
+package com.satyam.algorithms.bitwise;
 
 import static org.junit.jupiter.api.Assertions.*;
 

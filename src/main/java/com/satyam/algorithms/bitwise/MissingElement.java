@@ -1,6 +1,6 @@
-package com.satyam.algorithms.analysis.exercises;
+package com.satyam.algorithms.bitwise;
 
-
+/** The XOR trick is used to find the only non repeating element, where every other element repeats twice*/
 public class MissingElement {
 	
 	public static int getMissingElement(int[] arr) {

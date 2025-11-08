@@ -1,10 +1,8 @@
-package com.satyam.algorithms.analysis.theory;
+package com.satyam.algorithms.bitwise;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-
-import com.satyam.algorithms.bitwise.IntToBinary;
 
 class IntToBinaryTest {
 
