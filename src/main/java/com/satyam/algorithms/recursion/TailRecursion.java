@@ -2,17 +2,24 @@ package com.satyam.algorithms.recursion;
 
 /**
  * In tail recursion, the recursive call is the last operation in the function.
+5
+4
+3
+2
+1
+ * 
  * */
 public class TailRecursion {
 
-	static int factorial(int n) {
+	static void tailPrint(int n) {
 		if(n == 0)
-			return 1;
-		return n*factorial(n-1);
+			return;
+		System.out.println(n);
+		tailPrint(n-1);
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(factorial(5));
+		tailPrint(5);
 	}
 
 }

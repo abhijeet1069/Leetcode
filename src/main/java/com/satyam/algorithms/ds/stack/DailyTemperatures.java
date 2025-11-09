@@ -1,5 +1,6 @@
 package com.satyam.algorithms.ds.stack;
 
+/** These are examples of monotonic stack*/
 import java.util.Stack;
 
 public class DailyTemperatures {

@@ -7,14 +7,14 @@ package com.satyam.algorithms.recursion;
 
 public class HeadRecursion {
 
-	public static void printDescending(int n) {
+	static void headPrint(int n) {
 		if(n == 0)
 			return;
-		printDescending(n-1);
+		headPrint(n-1);
 		System.out.println(n);
 	}
 	
 	public static void main(String[] args) {
-		printDescending(5);
+		headPrint(5);
 	}
 }
