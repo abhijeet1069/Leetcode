@@ -1,6 +1,6 @@
 # Algorithms
 
-Algorithms using Algorithm Design manual book by Steven S Skiena
+Algorithm Design manual book by Steven S Skiena implemented in Java
 
 ## Topics to revisit
 

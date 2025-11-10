@@ -1,6 +1,6 @@
 package com.satyam.algorithms.ds.bst;
 
-public class BST<T extends Comparable<T>> {
+public class BST<T extends Number & Comparable<T>> {
 
 	public static class Node<T> {
 		public T item;
@@ -200,14 +200,24 @@ public class BST<T extends Comparable<T>> {
 
 	    return parent; // may be null if node is the largest
 	}
+	
+	public int sum() {
+		return sumAllNodes(root);
+	}
+	
+	private int sumAllNodes(Node<T> node) {
+		if(node == null)
+			return 0;
+		return node.item.intValue() + 
+				sumAllNodes(node.left) + 
+				sumAllNodes(node.right);
+	}
 
 	public static void main(String[] args) {
 		int[] arr = new int[] { 10, 13, 12, 3, 2, 12, 4 };
 		BST<Integer> bst = new BST<>();
 		for (int x : arr)
 			bst.insert(x);
-		bst.print();
-		bst.delete(bst.root.left);
 		bst.print();
 	}
 }
