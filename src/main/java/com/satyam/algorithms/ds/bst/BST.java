@@ -95,7 +95,7 @@ public class BST<T extends Number & Comparable<T>> {
 	}
 
 	private void print(Node<T> node, String prefix, boolean isTail) {
-		System.out.println(prefix + (isTail ? "└── " : "├── ") + node);
+		System.out.println(prefix + (isTail ? "└── " : "├──") + node);
 
 		// Collect children (left, right)
 		Node<T>[] children = getChildren(node);
