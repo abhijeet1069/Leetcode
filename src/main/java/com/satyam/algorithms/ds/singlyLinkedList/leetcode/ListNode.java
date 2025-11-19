@@ -1,4 +1,4 @@
-package com.satyam.algorithms.ds.linkedList.util;
+package com.satyam.algorithms.ds.singlyLinkedList.leetcode;
 
 // leetcode flavored linked list 
 

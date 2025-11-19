@@ -4,7 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import com.satyam.algorithms.ds.linkedList.util.ListNode;
+import com.satyam.algorithms.ds.singlyLinkedList.leetcode.ListNode;
+import com.satyam.algorithms.ds.singlyLinkedList.leetcode.RotateList;
 
 /**
 Given the head of a linked list, rotate the list to the right by k places.

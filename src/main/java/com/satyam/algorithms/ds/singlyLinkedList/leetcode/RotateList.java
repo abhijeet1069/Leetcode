@@ -1,6 +1,4 @@
-package com.satyam.algorithms.ds.linkedList;
-
-import com.satyam.algorithms.ds.linkedList.util.ListNode;
+package com.satyam.algorithms.ds.singlyLinkedList.leetcode;
 
 public class RotateList {
 	public ListNode rotateRight(ListNode head, int k) {

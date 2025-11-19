@@ -1,4 +1,4 @@
-package com.satyam.algorithms.ds.linkedList;
+package com.satyam.algorithms.ds.singlyLinkedList;
 
 public class LinkedList {
 	

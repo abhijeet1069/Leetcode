@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import com.satyam.algorithms.ds.singlyLinkedList.LinkedList;
+
 class LinkedListTest {
 
 	@Test
