@@ -7,7 +7,8 @@ public class PriorityQueueDS<T> {
     private static final int DEFAULT_CAPACITY = 11;
     private Object[] heap;
     private int size;
-    private final Comparator<? super T> comparator; // must me T or any parent of T
+    @SuppressWarnings("unused")
+	private final Comparator<? super T> comparator; // must me T or any parent of T
 
     public PriorityQueueDS() {
         this(null, DEFAULT_CAPACITY);
