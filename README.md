@@ -19,6 +19,7 @@ This method of practicing problems is also called the BFS way of practicing.
 - Arrays (32 easy, 16 medium, 2 hard)
 - Strings (31 easy, 6 medium)
 - Matrix (1 medium)
+  https://leetcode.com/problem-list/matrix/
 - Maths
 - Stack
 - Queue
